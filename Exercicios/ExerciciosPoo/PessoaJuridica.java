@@ -20,6 +20,7 @@ public class PessoaJuridica extends Clientes {
 	
 	
 	public void visualizar() {
-		System.out.println("\n Nome do Cliente: " + getNome() + "\n Gênero: " + getGenero() + "\n Idade: " + getIdade() + "\n Endereço: " + getEndereco() + "\n Tipo de Conta: " + getContaTipo() + "\n Nome Fantasia Da Empresa: " + nomeFantasia);
+		super.visualizar();
+		System.out.println("\n Nome Fantasia da Empresa: " + nomeFantasia);
 	}
 }

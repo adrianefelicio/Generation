@@ -27,6 +27,7 @@ public class PessoaFisica extends Clientes {
 
 	}
 	public void visualizar() {
-		System.out.println("\n Nome do Cliente " + getNome() + "\n Gênero: " + getGenero() + "\n Idade: " + getIdade() + "\n Endereço" + getEndereco() + "\n Tipo de Conta:" + getContaTipo() + "\n Dados do Imposto de Renda: " + impostoRenda);
+		super.visualizar();
+		System.out.println("\n Dados do Imposto de Renda: " +impostoRenda);
 	}
 }
